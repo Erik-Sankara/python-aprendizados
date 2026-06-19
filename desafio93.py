@@ -1,2 +1,0 @@
-# Crie um programa que gerencie o aproveitamento de um jogador de futebol. o programa vai ler o nome do jogador e quantas partidas ele jogou. depois vai ler a quantidade de gols feitos em cada partida. no final, tudo isso será guardade em um dicionário, incluindo o total de gols feitos durante o campeonato
-# na partida x ele fez x gols
