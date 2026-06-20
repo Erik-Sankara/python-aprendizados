@@ -1,1 +1,0 @@
-# Crie um programa que leia nome, sexo e idade de várias pessoas, guardando os dados de cada pessoa em um dicionário e todos os dicionários em uma lista. no final, mostre: A) quantas pessoas foram cadastradas B) a média de idade do grupo C) uma lista com todas as mulheres D) uma lista com todas as pessoas com idade acima da média
