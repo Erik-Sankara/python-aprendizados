@@ -9,22 +9,26 @@
 # def notas(lst):
 #     pos = 0
 #     while
-
+def entrada(ent):
+    while True:
+        usu = str(input("Deseja adicionar um número: [S/N] ")).upper()
+        if usu != "S":
+            break
+        valor = int(input("Digite a nota: "))
+        num[f"nota {c}"] = valor
+        c += 1
 maior = menor = 0
 c = 1
 num = {}
-while True:
-    usu = str(input("Deseja adicionar um número: [S/N] ")).upper()
-    if usu != "S":
-        break
-    valor = int(input("Digite a nota: "))
-    num[f"nota {c}"] = valor
-    c += 1
-    maior = menor = valor
-    if maior <= valor:
-        maior = valor
-    elif menor <= valor:
-        menor = valor
+
+
+for v in num.values():
+    if v == 0:
+        menor = num
+    if v >= maior:
+        maior = num
+    elif v <= menor:
+        menor = num
 
 
 print(num)
